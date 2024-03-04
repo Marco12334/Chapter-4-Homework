@@ -7,9 +7,9 @@ public class PrimeChecker {
         int num = scanner.nextInt();
         boolean isPrime = true;
 
-        if (num < 2) isPrime = false; // Check if number is less than 2
+        if (num < 2) isPrime = false; 
         else {
-            for (int i = 2; i <= num / 2; i++) { // Check divisibility up to half the number
+            for (int i = 2; i <= num / 2; i++) 
                 if (num % i == 0) {
                     isPrime = false;
                     break;
